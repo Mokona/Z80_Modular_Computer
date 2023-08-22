@@ -12,7 +12,7 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
-#define BAUD		250000
+#define BAUD		57600
 #define MYUBRR		((F_CPU/8/BAUD)-1)
 
 #define CS			(PIND&(1<<INT0))
